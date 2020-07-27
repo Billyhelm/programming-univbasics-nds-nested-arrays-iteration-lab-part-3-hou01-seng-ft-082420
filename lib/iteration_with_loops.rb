@@ -8,8 +8,8 @@ def join_nested_strings(src)
        sentence += #{src[outside][inside]} +  " "
       end 
       inside += 1 
-    end 
+    end outside += 1 
   end
-  outside += 1 
+  
   sentence
 end

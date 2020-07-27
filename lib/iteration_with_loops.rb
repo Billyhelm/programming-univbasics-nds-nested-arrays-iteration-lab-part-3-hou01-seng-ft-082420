@@ -5,7 +5,7 @@ def join_nested_strings(src)
   inside = 0 
     while inside < src[outside].count do 
       if src[outside][inside].class == String 
-       sentence += #{src[outside][inside]} +  " "
+       sentence += "#{src[outside][inside]} "
       end 
       inside += 1 
     end 
